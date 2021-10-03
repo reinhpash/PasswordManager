@@ -24,7 +24,7 @@ namespace PasswordManager
 
 
 
-        SqlConnection connection = new SqlConnection("Data Source=DESKTOP-HNQEL8O; Initial Catalog=PasswordManager; Integrated Security=TRUE");
+        SqlConnection connection = new SqlConnection("Your Sql Connection");
         public Form1()
         {
             InitializeComponent();
