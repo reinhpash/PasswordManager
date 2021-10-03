@@ -14,7 +14,7 @@ namespace PasswordManager
 {
     public partial class DeleteForm : Form
     {
-        SqlConnection connection = new SqlConnection("Data Source=DESKTOP-HNQEL8O; Initial Catalog=PasswordManager; Integrated Security=TRUE");
+        SqlConnection connection = new SqlConnection("Your Sql Connection");
         public DeleteForm()
         {
             InitializeComponent();
